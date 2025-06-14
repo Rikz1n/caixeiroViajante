@@ -34,17 +34,4 @@ O **TSP** é um problema clássico da ciência da computação que consiste em e
 | [Nome 6]                   | [XXXXXXX]  | Implementação Distribuída               |
 
 
-## 📁 Estrutura do Repositório
-
-```bash
-.
-├── sequencial/
-│   └── Sequencial.java
-├── paralela/
-│   └── TSPParalelo.java
-├── distribuida/
-│   ├── Servidor.java
-│   └── Cliente.java
-├── README.md
-├── relatorio.pdf
-└── apresentacao.pdf
+## 
