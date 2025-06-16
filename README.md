@@ -30,8 +30,8 @@ O **TSP** é um problema clássico da ciência da computação que consiste em e
 | Melina Alves Gonçalves      | 2312727    | Implementação Sequencial + Testes  + Documentação      |
 | Lucas André Munhoz da Cruz  | [XXXXXXX]  | Implementação Paralela + Testes               |
 | Danilson Matsushita Junior  | [XXXXXXX]  | Implementação Paralela + Testes               |
-| [Nome 5]                   | [XXXXXXX]  | Implementação Distribuída               |
-| [Nome 6]                   | [XXXXXXX]  | Implementação Distribuída               |
+| Henrique Galiano de Moraes  | 2418266    | Implementação Distribuída + Testes            |
+| Gustavo Morais Alves        | 2418240    | Implementação Distribuída + Testes            |
 
 
 ## 
