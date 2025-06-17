@@ -5,7 +5,6 @@ import java.util.List;
 
 public class CaixeiroViajanteSequencial {
 
-    // Matriz de 5 cidades
     static int[][] matriz5 = {
         {0, 2, 9, 10, 7},
         {2, 0, 6, 4, 3},
@@ -24,35 +23,42 @@ public class CaixeiroViajanteSequencial {
         {100, 72, 81, 92, 94, 95, 0}
     };
 
-    // Função que resolve o problema
     public static Result tsp(int[][] matriz) {
+        // Cria uma lista com as cidades (exceto a cidade inicial 0)
         List<Integer> vertices = new ArrayList<>();
         for (int i = 1; i < matriz.length; i++) {
             vertices.add(i);
         }
 
+        // Variáveis para armazenar o menor custo e o melhor caminho
         int minCusto = Integer.MAX_VALUE;
         List<Integer> melhorCaminho = null;
 
+        // Gera todas as permutações possíveis dos caminhos
         List<List<Integer>> permutacoes = gerarPermutacoes(vertices);
 
+         // Para cada permutação, calcula o custo do caminho
         for (List<Integer> perm : permutacoes) {
             int custoAtual = 0;
             int k = 0;
 
+            // Soma os custos entre cada cidade no caminho
             for (int i : perm) {
                 custoAtual += matriz[k][i];
                 k = i;
             }
 
+            // Soma o custo de voltar para a cidade inicial (0)
             custoAtual += matriz[k][0]; // voltar para o início
 
+            // Verifica se esse caminho tem um custo menor que o atual mínimo
             if (custoAtual < minCusto) {
                 minCusto = custoAtual;
                 melhorCaminho = perm;
             }
         }
 
+        // Retorna o resultado com o menor custo e o melhor caminho encontrado
         return new Result(minCusto, melhorCaminho);
     }
 
@@ -114,11 +120,11 @@ public class CaixeiroViajanteSequencial {
     // Formata o caminho adicionando o ponto inicial e final (cidade 0)
     public static String caminhoFormatado(List<Integer> caminho) {
         StringBuilder sb = new StringBuilder();
-        sb.append("0 -> ");
+        sb.append("0 -> "); // Começa na cidade 0
         for (int c : caminho) {
             sb.append(c).append(" -> ");
         }
-        sb.append("0");
+        sb.append("0"); // Retorna para a cidade 0
         return sb.toString();
     }
 }
