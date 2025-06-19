@@ -24,14 +24,14 @@ O **TSP** é um problema clássico da ciência da computação que consiste em e
 
 ## 👩‍💻 Integrantes do Grupo
 
-| Nome                        | Matrícula  | Contribuição principal                   |
-|-----------------------------|------------|------------------------------------------|
-| Amanda Moura Cavalcante     | 2261049    | Implementação Sequencial + Teste + Documentação |
-| Melina Alves Gonçalves      | 2312727    | Implementação Sequencial + Testes  + Documentação      |
-| Lucas André Munhoz da Cruz  | 2418312    | Implementação Paralela + Testes               |
-| Danilson Matsushita Junior  | 2278235    | Implementação Paralela + Testes               |
-| Gustavo Morais Alves        | 2418240    | Implementação Distribuída               |
-| Henrique Galiano de Moraes  | 2418266    | Implementação Distribuída               |
+| Nome                        | Matrícula  | Contribuição principal                             |
+|-----------------------------|------------|----------------------------------------------------|
+| Amanda Moura Cavalcante     | 2261049    | Implementação Sequencial + Teste + Documentação    |
+| Melina Alves Gonçalves      | 2312727    | Implementação Sequencial + Testes  + Documentação  |
+| Lucas André Munhoz da Cruz  | 2418312    | Implementação Paralela + Testes                    |
+| Danilson Matsushita Junior  | 2278235    | Implementação Paralela + Testes                    |
+| Gustavo Morais Alves        | 2418240    | Implementação Distribuída + Testes                 |
+| Henrique Galiano de Moraes  | 2418266    | Implementação Distribuída + Testes                 |
 
 
 ## 
